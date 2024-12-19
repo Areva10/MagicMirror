@@ -5,9 +5,9 @@ Module.register("compliments", {
 	defaults: {
 		compliments: {
 			anytime: ["Hey there Alan!", "Todo al 100, perro!"],
-			morning: ["Good morning, Alan!", "Life is good!", "Enjoy your day, Alan"],
-			afternoon: ["Keep pushing, Alan!", "Workout today?!", "Did you practice guitar yet?"],
-			evening: ["Healthy dinner!", "Remember your goals!", "Blessed to live"],
+			morning: ["Good morning, Alan!", "Life is good!", "Enjoy your day, Alan", "Todo al 100, perro!"],
+			afternoon: ["Keep pushing, Alan!", "Workout today?!", "Did you practice guitar yet?", "Todo al 100, perro!"],
+			evening: ["Healthy dinner!", "Remember your goals!", "Blessed to live", "Todo al 100, perro!"],
 			"....-01-01": ["Happy new year!"],
 			"....-01-02": ["Happy Birthday, Alan!"]
 		},
