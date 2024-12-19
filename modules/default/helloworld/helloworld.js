@@ -32,7 +32,7 @@ Module.register("workout_of_the_day", {
 		}, this.config.updateInterval);
 	},
 
-	// Retrieve a file from the local filesystem
+	// Retrieve a file from the local filesystem wawa
 	async loadWorkoutFile() {
 		const isRemote = this.config.remoteFile.startsWith("http://") || this.config.remoteFile.startsWith("https://");
 		const url = isRemote ? this.config.remoteFile : this.file(this.config.remoteFile);
