@@ -4,14 +4,14 @@ Module.register("compliments", {
 	// Module config defaults.
 	defaults: {
 		compliments: {
-			anytime: ["Hey there Alan!", "Morning Alan, todo al 100 perro"],
+			anytime: ["Hey there Alan!", "Todo al 100, perro!"],
 			morning: ["Good morning, Alan!", "Life is good!", "Enjoy your day, Alan"],
 			afternoon: ["Keep pushing, Alan!", "Workout today?!", "Did you practice guitar yet?"],
 			evening: ["Healthy dinner!", "Remember your goals!", "Blessed to live"],
 			"....-01-01": ["Happy new year!"],
 			"....-01-02": ["Happy Birthday, Alan!"]
 		},
-		updateInterval: 30000,
+		updateInterval: 10000,
 		remoteFile: null,
 		fadeSpeed: 4000,
 		morningStartTime: 3,
